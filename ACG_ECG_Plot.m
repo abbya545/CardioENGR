@@ -1,3 +1,5 @@
+% Data recorded at 100 Hz
+
 for i = 1:n
     data = eval(sprintf('b%d',i));
     figure
