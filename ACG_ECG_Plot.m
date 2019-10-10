@@ -5,7 +5,7 @@ for i = 1:n
     figure
     subplot(2,1,1);
     time = data(:,1);
-    ACG = -1* data(:,2);
+    ACG = data(:,2);
     ECG = data(:,3);
     plot(time, ACG);
     title(sprintf('ACG Trial %d', i));
