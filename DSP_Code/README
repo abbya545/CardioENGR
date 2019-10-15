@@ -1,7 +1,7 @@
 Download combine.m, ECGpeaks.m, FIR.m, and main.m into your folder of choice
 
 Only edit main.m
-Change the filename variable to whichever dataset you want to use.
+Change the filename variable to whichever dataset you want to use from what Abby has grabbed.
 Press play(F5)!
 
 Figure will come up with ACG and ECG signals plotted. Matlab console will have all the variable still
