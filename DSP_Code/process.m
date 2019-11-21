@@ -1,4 +1,4 @@
-function [vector] = combine(filename, noise)
+function [vector] = process(filename, noise)
     %just a reminder of which column is what
     load(filename);
     header={'Time' 'ACG' 'ECG'};
@@ -19,7 +19,7 @@ function [vector] = combine(filename, noise)
     end
     
     %invert ACG per Abby's git notes
-%     data(:,2)=-1*data(:,2);
+    data(:,2)=-1*data(:,2);
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %plot pre- and post- detrend ACG of all b intervals
@@ -51,9 +51,9 @@ function [vector] = combine(filename, noise)
 %     f1=polyval(p,t);
 %     plot(t, b4(:,2)-f1, t, b4(:,2))
 %     title('Trial 4')
-    
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    %plot pre- and post- detrend ECG of all b intervals
+%     
+%     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     %plot pre- and post- detrend ECG of all b intervals
 %     figure
 %     subplot(4,1,1)
 %     t=b1(:,1);
