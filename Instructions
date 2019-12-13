@@ -1,0 +1,6 @@
+The data included in this repository was collected at the University of North Dakota in fall 2019. This data was recorded from young, healthy, voluntary subjects; however, as this data was not collected under an approved IRB protocol, the data in this repository must not be used for any publications. The data and corresponding notes are provided here as an educational tool for academic use only.
+
+The author wishes to extend special thanks to the members of the University of North Dakota Biomedical Engineering Research Complex for their participation in this data collection.
+
+About the Data:
+The data files in this repository contain synchronous recordings of apexcardiogram (ACG) and electrocardiogram (ECG). The recording procedure document is also included in the folder. Each data file contains multiple trials which are split into separate arrays. For easy plotting in MatLab, use “ACG_ECG_Plot.m” provided in the main GitHub folder. This file will automatically plot each trial in the file in a separate graph. To use the progam, download the data files to your MatLab folder path, clear all variables from the MatLab workspace, double click on the data file name to load it into the workspace, the run the script and enjoy the conveniently plotted signals.  
